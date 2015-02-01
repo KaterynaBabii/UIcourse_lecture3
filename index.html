@@ -1,0 +1,110 @@
+	<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>HTML5 introduction</title>
+		<!--<link rel="stylesheet" href="css/style.css" /> -->
+	</head>
+	<body marginheight="45px" marginwidth="160px">
+		<div class="container">
+			<header>
+				<p>You are here: <a href="#">Home</a> &#9656 <a href="#">Dive Into HTML5</a> &#9656 
+			</header>
+			
+				<div align="center">
+					<h1>INTRODUCTION:<br>FIVE THINGS YOU SHOULD KNOW<br>ABOUT HTML5 </h1>
+					<details>
+						<summary><a href="#">show table of contents</a></summary>
+							<ol>
+								<li>Full table of contents</li>
+	             		      	<li>It&#180;s not one big thing</li>
+			                	<li>You don&#180;t need to throw anything away</li>
+			                	<li>It&#180;s easy to get started</li>
+			                	<li>It already works</li>
+			                	<li>It&#180;s here to stay</li>
+							</ol>
+					</details>
+				</div>	
+			<article>
+				<h2 class="caption"><font size="6">1. It&#180;s not one big thing</font></h2>
+				<img src="images/video.png" alt="Video image" align="right" hspace="40"/>
+				<p><font size="4">You may well ask: “How can I start using HTML5 if older browsers don’t support it?” But
+					the question itself is misleading. HTML5 is not one big thing; it is a collection of individual
+					features. So you can’t detect “HTML5 support,” because that doesn’t make any sense. But
+					you can detect support for individual features, like canvas, video, or geolocation.</font></p>
+						
+				<p><font size="4">You may think of HTML as tags and angle brackets. That’s an important part of it, but it’s
+					not the whole story. The HTML5 specification also defines how those angle brackets
+					interact with JavaScript, through the Document Object Model (DOM). HTML5 doesn’t just
+					define a video tag; there is also a corresponding DOM API for video objects in the DOM.
+					You can use this API to detect support for different video formats, play a video, pause, mute audio, 
+					track how much of the video has been downloaded, and everything else you need to build a rich user experience around the video tag itself. </font></p>
+						
+				<p><font size="4"><a href="#"/>Chapter 2</a> and <a href="#">Appendix A </a>will teach you how to properly detect support for each new HTML5 feature.</font></p>
+			</article>
+			<article>
+   				<h2 class="caption"><font size="6">2. You don&#180;t need to throw anything away</font></h2>	
+				<img src="images/forms.png" alt="Form image" width="134" height="196" align="left" hspace="20"/></td>
+					<p><font size="4">Love it or hate it, you can’t deny that HTML 4 is the most successful markup format ever. HTML5 builds on that success. You don’t need to throw away your existing markup. You don’t need to relearn things you already know. If your web application worked yesterday in HTML 4, it 	will still work today in HTML5. Period. </font></p>
+					
+					<p><font size="4">Now, if you want to improve your web applications, you’ve come to the right place. Here’s a concrete example: HTML5 supports all the form controls from HTML 4, but it also includes new input controls. Some of these are long-overdue additions like sliders and date pickers; others are more subtle. For example, the email input type looks just like a text box, but mobile browsers will customize their onscreen keyboard to make it easier to type email addresses. Older browsers that don’t support the email input type will treat it as a regular text field, and the form still works with no markup changes or scripting hacks. This means you can start improving your web forms today, even if some of your visitors are stuck on IE 6. </font></p>
+					
+					<p><font size="4">Read all the gory details about HTML5 forms in <a href="#">Chapter 9</a>.</font></p>
+			</article>
+			<article>
+				<h2 class="caption"><font size="6">3. It&#180;s easy to get started</font></h2>
+					<img src="images/markup-with-arrow.png" alt="sample HTML markup image" align="right" hspace="40"/>
+					<p><font size="4">“Upgrading” to HTML5 can be as simple as changing your doctype. The doctype should already be on the first line of every HTML page. Previous versions of HTML defined a lot of doctypes, and choosing the right one could be tricky. In HTML5, there is only one doctype: </font></p>
+					
+					<code>< !DOCTYPE html ></code>
+					
+					<p><font size="4">Upgrading to the HTML5 doctype won’t break your existing markup, because <a href="#">obsolete elements</a> previously defined in HTML 4 will still render in HTML5. But it will allow you to use — and validate — new semantic elements like <code>article section, header, and footer </code>. You’ll learn all about these new elements in</font></p>
+			</article>
+			<article>
+				<h2 class="caption"><font size="6">4. It already works</font></h2>
+				<img src="images/rel-email.png" alt="form field with onscreen keyboard" align="left" hspace="20"/></td>
+				<p><font size="4">Whether you want to draw on a canvas, play video, design better forms, 
+				or build web applications that work offline, you’ll find that HTML5 
+				is already well-supported. Firefox, Safari, Chrome, Opera, 
+				and mobile browsers already support canvas <a href="#">(Chapter 4)</a>, video <a href="#">(Chapter 5)</a>, 
+				geolocation <a href="#">(Chapter 6)</a>, local storage <a href="#">(Chapter 7)</a>, and more. Google already supports 
+				microdata annotations <a href="#">(Chapter 10)</a>.
+				Even Microsoft — rarely known for blazing the trail of standards support — supports most HTML5 features in Internet Explorer 9. </font></p>
+				
+				<img src="images/gears.png" alt="I can help" align="right" hspace="40" vspace="40"/>
+				<p><font size="4">Each chapter of this book includes the all-too-familiar browser compatibility charts. But more importantly, each chapter includes a frank discussion of your options if you need to support older browsers. HTML5 features like geolocation (Chapter 6) and video (Chapter 5) were first provided by browser plugins like Gears or Flash. Other features, like canvas (Chapter 4), can be emulated entirely in JavaScript. 
+				This book will teach you how to target the native features of modern browsers, without leaving older browsers behind.</font></p>
+				
+			</article>
+			<article>
+				<h2 class="caption"><font size="6">5. It&#180;s here to stay</font></h2>
+				<p><font size="4">Tim Berners-Lee invented the world wide web in the early 1990s. He later founded the W3C to act as a steward of web standards, which the organization has done for more than 15 years. Here is what the W3C had to say about the future of web standards, in July 2009: </font></p>
+				
+				<blockquote><font size="4">Today the Director announces that when the XHTML 2 Working Group charter expires as scheduled at the end of 2009, the charter will not be renewed. By doing so, and by increasing resources in the HTML Working Group, W3C hopes to accelerate the progress of HTML5 and clarify W3C’s position regarding the future of HTML.</font> </blockquote>
+				
+				<p>HTML5 is here to stay. <a href="#">Let’s dive in.</a> </p>
+			</article><br><br><br>
+			<table frame="border" cellspacing="0" cellpadding="10">
+				<th colspan="2" align="left" bgcolor="black"><font color="white">DID YOU KNOW?</font></th>
+			<tr>
+				<td>
+					<p><font size="4">In association with Google Press, O’Reilly is distributing this book in a variety of formats, including paper, ePub, Mobi, and 	DRM-free PDF. The paid edition is called “HTML5: Up & Running,” and it is available now.</font>
+					<p><font size="4">If you liked this introduction and want to show your appreciation, you can <a href="#">buy “HTML5: Up &amp Running” with this affiliate link</a> or <a href="#">buy an electronic edition directly from O’Reilly</a>. You’ll get a book, and I’ll get a buck. I do not currently accept direct donations.</font>
+				</td>
+				<td><img src="images/bag_of_money.png" alt="bag of money" height="250px" ></td>
+			</tr>
+			</table>
+		<br><br>
+		<footer>
+			<div align="center">
+				<p>Copyright MMIX–MMXI <a href="#"><font color="black">Mark Pilgrim</font></a></font>
+				<form>
+					<input type="search" placeholder="Powered by Google&trade;">
+					<button type="submit">Search</button>
+				</form>
+			</div>
+		</footer>
+	</div>
+	</body>
+	
+</html>
