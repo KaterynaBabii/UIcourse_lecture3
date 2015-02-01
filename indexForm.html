@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>UICourse Lesson3 Forms</title>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+			<legend>Names</legend>
+				Enter your name:<br> 
+				<input type="text"/><br><br>
+				Select your name:<br>
+				<input list="names"/>
+					<datalist id="names">
+						<option value="name1"></option>
+						<option value="name2"></option>
+						<option value="name3"></option>
+						<option value="name4"></option>
+					</datalist><br><br>
+				Select a number:<br>
+				<select name="numbers">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select>
+			</fieldset><br>
+			<fieldset> 
+				Select a number:<br>
+				<input type="radio" name="number" value="1"/>1<br>
+				<input type="radio" name="number" value="2"/>2<br>
+				<input type="radio" name="number" value="3"/>3<br>
+				<input type="radio" name="number" value="4"/>4<br><br>
+				Select a number:<br>
+				<input type="checkbox" name="number" value="one"/>1<br>
+				<input type="checkbox" name="number" value="two"/>2<br>
+				<input type="checkbox" name="number" value="three"/>3<br>
+				<input type="checkbox" name="number" value="four"/>4<br>
+			</fieldset><br><br>
+			<button type="reset">RESET</button>
+			<button type="submit">SUBMIT</button>
+			
+		</form>
+	</body>
+</html>
